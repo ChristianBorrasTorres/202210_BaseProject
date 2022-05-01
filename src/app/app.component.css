@@ -1,3 +1,9 @@
-* [lang^=en] {
-  color: green;
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+
+h1 {
+  font-family: 'Kaisei Decol', serif;
+  font-weight: normal;
 }
+
+
+
