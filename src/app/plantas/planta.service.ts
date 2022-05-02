@@ -9,7 +9,7 @@ import { Planta } from './planta';
   providedIn: 'root'
 })
 export class PlantaService {
-  private apiUrl: string = environment.baseUrl
+  private apiUrl: string = environment.baseUrl;
   constructor(private http: HttpClient) { }
 
   getPlantas(): Observable<Planta[]> {
